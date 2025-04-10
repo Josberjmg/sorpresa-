@@ -1657,3 +1657,9 @@ h1 {
 }
 
 /* Agregar más estilos según sea necesario */
+
+
+.imagenmanzana {
+  width: 40px; 
+  height: auto;
+}

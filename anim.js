@@ -4,12 +4,13 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Bueno queria decirte que nunca cambies yosi..", time: 15 },
+  { text: "Bueno queria decirte que nunca cambies yosi👀..", time: 15 },
   { text: "Que siempre seas tu misma", time: 18 },
   { text: "aunque si cambia esto: ..", time: 27 },
   { text: "aaa no te creas que voy a estar queriendote cambiar yo vale", time: 32 },
   { text: "si vales mil y no son bs son bitcoins osea demasiá plata ps.", time: 35 },
   { text: "Bueno entonces no tengo otra que felicitarte por tu cumple con este detallito", time: 41 },
+  { text: "no por obligación obvioo", time: 45 },
   { text: "detallito que si me costo un poco de tiempo y algo de estudio pero bueno se me antojo para ti", time: 47 },
   { text: "y bueno solo queria darte algo", time: 54 },
   { text: "a la vez decirte algunas cositas pero no soy bueno para esto jsjs", time: 59 },
@@ -23,7 +24,8 @@ var lyricsData = [
   { text: "entonces tienes mi aprecio y quiero que te cuides mucho", time: 108 },
   { text: "porque estan llendo por ti 💀", time: 113 },
   { text: "a no te creas jashas", time: 119 },
-  { text: "esperate que no he terminado espera la cancion jsjsj", time: 133 },
+  { text: "bueno que massss...... no sé pudin?", time: 133 },
+  { text: "fijate ****", time: 138 },
   { text: "pero si cuidate mucho, actualmente estan pasando cosas malas a mucha gente", time: 148 },
   { text: "y no me gustaria que te pasara nada a ti", time: 153 },
   { text: "obvio si te pasara que te toca una loteria o algo asi si jsjsjdh", time: 158 },
@@ -72,3 +74,15 @@ function ocultarTitulo() {
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
 setTimeout(ocultarTitulo, 16000);
+
+function ocultarImagen() {
+  var imagenmanzana = document.querySelector(".imagenmanzana");
+  imagenmanzana.style.animation =
+    "fadeOut 3s ease-in-out forwards"; /* Duración y función de temporización de la desaparición */
+  setTimeout(function () {
+    imagenmanzana.style.display = "none";
+  }, 3000); // Espera 3 segundos antes de ocultar completamente
+}
+
+// Llama a la función después de 216 segundos (216,000 milisegundos)
+setTimeout(ocultarImagen, 16000);
