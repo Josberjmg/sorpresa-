@@ -37,8 +37,9 @@ body{
 }
 
 .greetings{
-    font-size: 7rem;
+    font-size: 3rem;
     font-weight: 900;
+    height: auto;
 }
 .greetings > span{
     animation: glow 3.0s ease-in-out infinite;
@@ -79,7 +80,7 @@ body{
 }
 
 .description{
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -96,11 +97,11 @@ body{
         font-size: 4rem;
         font-weight: 800;
         text-align: center;
-        height: auto;
+        
     }
     .description{
         font-size: 2rem;
-        height: auto;
+        
     }
     
     .button a{
