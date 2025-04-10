@@ -93,7 +93,7 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 4.2rem;
+        font-size: 4rem;
         font-weight: 800;
         text-align: center;
         
