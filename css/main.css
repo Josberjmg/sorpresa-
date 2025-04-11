@@ -109,6 +109,22 @@ body {
   */
 }
 
+@media screen and (max-width:574px){
+  .imagenessuperiores2 {
+    width: 4.5rem;
+    height: auto;
+    position:absolute;
+    
+  }
+  .imagenessuperiores1 {
+    width: 4.5rem;
+    height: auto;
+    position:absolute;
+    top: 9.1rem;
+    left: 1rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
 .flowers {
@@ -117,19 +133,7 @@ body {
       letter-spacing: 3px;
       transform: scale(1.0);
 }
-.imagenessuperiores2 {
-  width: 4.5rem;
-  height: auto;
-  position:absolute;
-  
-}
-.imagenessuperiores1 {
-  width: 4.5rem;
-  height: auto;
-  position:absolute;
-  top: 9.1rem;
-  left: 1rem;
-}
+
 }
 
 .flower {
