@@ -1681,7 +1681,14 @@ h1 {
   height: auto;
   position:absolute;
   top: -530px;
-  left: -80px;
+  left: -100px;
+}
+.imagenessuperiores3 {
+  width: 90px;
+  height: auto;
+  position:absolute;
+  top: -540px;
+  left: -10px;
 }
 @media screen and (max-width:574px){
 }
