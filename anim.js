@@ -86,3 +86,48 @@ function ocultarImagen() {
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
 setTimeout(ocultarImagen, 16000);
+
+
+
+const imagen = document.getElementById('imagen-temporizada');
+const btnIniciar = document.getElementById('iniciar');
+const btnDetener = document.getElementById('detener');
+
+// Configuración del temporizador
+const tiempoVisible = 2000; // 2 segundos visible
+const tiempoOculta = 10000; // 10 segundo oculta
+let intervalo;
+
+// Función para alternar la visibilidad
+function alternarImagen() {
+  imagen.classList.toggle('mostrar');
+}
+
+// Iniciar el ciclo
+function iniciarCiclo() {
+  // Mostrar la imagen inmediatamente al iniciar
+  imagen.classList.add('mostrar');
+
+  // Configurar el intervalo
+  intervalo = setInterval(() => {
+    alternarImagen();
+
+    // Ajustar el tiempo según si se muestra o se oculta
+    clearInterval(intervalo);
+    intervalo = setInterval(alternarImagen,
+      imagen.classList.contains('mostrar') ? tiempoVisible : tiempoOculta);
+  }, tiempoVisible);
+}
+
+// Detener el ciclo
+function detenerCiclo() {
+  clearInterval(intervalo);
+  imagen.classList.remove('mostrar');
+}
+
+// Event listeners
+btnIniciar.addEventListener('click', iniciarCiclo);
+btnDetener.addEventListener('click', detenerCiclo);
+
+// Iniciar automáticamente al cargar la página (opcional)
+window.addEventListener('load', iniciarCiclo);

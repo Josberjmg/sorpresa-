@@ -1688,7 +1688,17 @@ h1 {
   height: auto;
   position:absolute;
   top: -540px;
-  left: -10px;
+  left: -18px;
 }
-@media screen and (max-width:574px){
+.imagen-temporizada {
+  width: 90px;
+  height: auto;
+  position: absolute;
+  top: -400px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.imagen-temporizada-mostrar {
+  opacity: 0;
 }

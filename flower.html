@@ -101,6 +101,32 @@
           <div class="flower__g-long__bottom"></div>
         </div>
       </div>
+      <style>
+        #imagen-temporizada {
+          width: 90px;
+          height: auto;
+          position: absolute;
+          top: -400px;
+          object-fit: cover;
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+        }
+        #imagen-temporizada.mostrar {
+            opacity: 1;
+        }
+        
+        .controles {
+            margin-top: 20px;
+        }
+        
+        button {
+            padding: 8px 16px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+      </style>
+      <img id="imagen-temporizada" src="./img/foto1.png" alt="Imagen temporizada" >
+      
     <h2><img src="./img/manzana.jpg" alt="manzanita:)" class="imagenmanzana"> </h2>
     <img src="./img/foto4.png" alt=" gato con corazon" class="imagenessuperiores1">
     <img src="./img/foto11.png" alt="raton" class="imagenessuperiores2">
