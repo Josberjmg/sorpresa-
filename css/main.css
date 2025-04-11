@@ -119,10 +119,10 @@ body {
 }
 .imagenessuperiores2 {
   width: 4.5rem;
-  height: 4.5rem;
+  height: auto;
   position:absolute;
   top: 9.1rem;
-  right: 1rem;
+  right: 10rem;
 }
 .imagenessuperiores1 {
   width: 4.5rem;
