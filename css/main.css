@@ -1673,16 +1673,15 @@ h1 {
   width: 90px;
   height: auto;
   position:absolute;
-  top: -570px;
+  top: -530px;
   left: 80px;
 }
 .imagenessuperiores2 {
-  width: 77px;
+  width: 90px;
   height: auto;
   position:absolute;
-  top: 160px;
-  left: 900px;
+  top: -530px;
+  left: -80px;
 }
-
 @media screen and (max-width:574px){
 }
