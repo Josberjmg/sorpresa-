@@ -117,7 +117,20 @@ body {
       letter-spacing: 3px;
       transform: scale(1.0);
 }
-
+.imagenessuperiores2 {
+  width: 4.5rem;
+  height: auto;
+  position:absolute;
+  top: 160px;
+  left: 90px;
+}
+.imagenessuperiores1 {
+  width: 4.5rem;
+  height: auto;
+  position:absolute;
+  top: 9.1rem;
+  left: 1rem;
+}
 }
 
 .flower {
