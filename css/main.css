@@ -1666,6 +1666,7 @@ h1 {
 .imagenmanzana {
   width: 40px; 
   height: auto;
+  
 }
 
 .imagenessuperiores1 {
@@ -1684,11 +1685,4 @@ h1 {
 }
 
 @media screen and (max-width:574px){
-  .imagenessuperiores2 {
-    width: 4.5rem;
-    height: auto;
-    position:absolute;
-    
-  }
-
 }
