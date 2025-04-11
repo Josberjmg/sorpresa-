@@ -1663,3 +1663,18 @@ h1 {
   width: 40px; 
   height: auto;
 }
+
+.imagenessuperiores1 {
+  width: 77px;
+  height: auto;
+  position:absolute;
+  top: 160px;
+  left: 300px;
+}
+.imagenessuperiores2 {
+  width: 77px;
+  height: auto;
+  position:absolute;
+  top: 160px;
+  left: 900px;
+}
