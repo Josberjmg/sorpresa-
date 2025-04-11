@@ -1691,21 +1691,3 @@ h1 {
   top: 160px;
   left: 900px;
 }
-@media screen and (max-width:574px){
-  .imagenessuperiores2 {
-    width: 4.5rem;
-    height: auto;
-    position:absolute;
-    top: 160px;
-    left: 900px;
-  }
-  
-  
-  .imagenessuperiores1 {
-    width: 4.5rem;
-    height: auto;
-    position:absolute;
-    top: 9.1rem;
-    left: 1rem;
-  }
-}
