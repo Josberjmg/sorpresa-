@@ -1665,7 +1665,7 @@ h1 {
 }
 
 .imagenessuperiores1 {
-  width: 77px;
+  width: 7.5rem;
   height: auto;
   position:absolute;
   top: 160px;
@@ -1677,4 +1677,22 @@ h1 {
   position:absolute;
   top: 160px;
   left: 900px;
+}
+@media screen and (max-width:574px){
+  .imagenessuperiores2 {
+    width: 4.5rem;
+    height: auto;
+    position:absolute;
+    top: 160px;
+    left: 900px;
+  }
+  
+  
+  .imagenessuperiores1 {
+    width: 4.5rem;
+    height: auto;
+    position:absolute;
+    top: 10rem;
+    left: 16rem;
+  }
 }
