@@ -110,21 +110,8 @@ body {
   */
 }
 
-@media screen and (max-width:574px){
-  .imagenessuperiores2 {
-    width: 4.5rem;
-    height: auto;
-    position:absolute;
-    
-  }
-  .imagenessuperiores1 {
-    width: 4rem;
-    height: auto;
-    
-    top: 4rem;
-    left: 1rem;
-  }
-}
+
+
 
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
@@ -1701,4 +1688,20 @@ h1 {
   position:absolute;
   top: 160px;
   left: 900px;
+}
+
+@media screen and (max-width:574px){
+  .imagenessuperiores2 {
+    width: 4.5rem;
+    height: auto;
+    position:absolute;
+    
+  }
+  .imagenessuperiores1 {
+    width: 4rem;
+    height: auto;
+    
+    top: 4rem;
+    left: -5rem;
+  }
 }
