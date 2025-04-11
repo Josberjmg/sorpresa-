@@ -1651,13 +1651,6 @@ h1 {
   h1 {
       font-size: 1.8em;
   }
-  .imagenessuperiores1 {
-    width: 90px;
-    height: auto;
-    position:absolute;
-    top: -530px;
-    left: 0px;
-  }
 }
 
 @media screen and (min-width: 1025px) {
