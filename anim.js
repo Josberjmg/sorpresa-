@@ -25,16 +25,19 @@ var lyricsData = [
   { text: "porque estan llendo por ti 💀", time: 113 },
   { text: "a no te creas jashas", time: 119 },
   { text: "bueno que massss...... no sé pudin?", time: 133 },
-  { text: "fijate ****", time: 138 },
-  { text: "pero si cuidate mucho, actualmente estan pasando cosas malas a mucha gente", time: 148 },
+  { text: "bueno no se cuando salimo a hartar?", time: 136 },
+  { text: "yo invito, tu pagas :D", time: 140 },
+  { text: "ya se antoja comer o tal vez cuando escribi esto tenia hambre, sueño o no se tarea", time: 143 },
+  { text: "pero aja si cuidate mucho, actualmente estan pasando cosas malas a mucha gente", time: 148 },
   { text: "y no me gustaria que te pasara nada a ti", time: 153 },
   { text: "obvio si te pasara que te toca una loteria o algo asi si jsjsjdh", time: 158 },
   { text: "Amen🙏", time: 164 },
-  { text: "que Dios y la Virgen te cuiden entonces de lo malo", time: 169 },
-  { text: "doble Amen🙏", time: 176 },
-  { text: "bueno ya para finalizar", time: 183 },
-  { text: "te deseo un Feliz cumpleaños a ti Yoseglys Valentina❤️", time: 188 },
-  { text: "Iloviuyu", time: 198 },
+  { text: "que Dios y la Virgen te cuiden entonces de lo malo", time: 167 },
+  { text: "doble Amen🙏", time: 171 },
+  { text: "bueno ya para finalizar", time: 174 },
+  { text: "te deseo un Feliz cumpleaños a ti Yoseglys Valentina❤️", time: 178 },
+  { text: "Iloviuyu", time: 184 },
+  { text: "FIN:D", time: 192 }
 ];
 
 // Animar las letras
@@ -86,48 +89,3 @@ function ocultarImagen() {
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
 setTimeout(ocultarImagen, 16000);
-
-
-
-const imagen = document.getElementById('imagen-temporizada');
-const btnIniciar = document.getElementById('iniciar');
-const btnDetener = document.getElementById('detener');
-
-// Configuración del temporizador
-const tiempoVisible = 2000; // 2 segundos visible
-const tiempoOculta = 10000; // 10 segundo oculta
-let intervalo;
-
-// Función para alternar la visibilidad
-function alternarImagen() {
-  imagen.classList.toggle('mostrar');
-}
-
-// Iniciar el ciclo
-function iniciarCiclo() {
-  // Mostrar la imagen inmediatamente al iniciar
-  imagen.classList.add('mostrar');
-
-  // Configurar el intervalo
-  intervalo = setInterval(() => {
-    alternarImagen();
-
-    // Ajustar el tiempo según si se muestra o se oculta
-    clearInterval(intervalo);
-    intervalo = setInterval(alternarImagen,
-      imagen.classList.contains('mostrar') ? tiempoVisible : tiempoOculta);
-  }, tiempoVisible);
-}
-
-// Detener el ciclo
-function detenerCiclo() {
-  clearInterval(intervalo);
-  imagen.classList.remove('mostrar');
-}
-
-// Event listeners
-btnIniciar.addEventListener('click', iniciarCiclo);
-btnDetener.addEventListener('click', detenerCiclo);
-
-// Iniciar automáticamente al cargar la página (opcional)
-window.addEventListener('load', iniciarCiclo);
