@@ -1,21 +1,21 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
-var lyrics = document.querySelector("#lyrics");
+
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "Bueno queria decirte que nunca cambies yosi👀..", time: 15 },
   { text: "Que siempre seas tu misma", time: 18 },
   { text: "aunque si cambia esto: ..", time: 23 },
-  { text: "aaa no te creas que voy a estar queriendote cambiar yo vale", time: 28 },
-  { text: "si vales mil y no son bs son bitcoins osea demasiá plata ps.", time: 35 },
-  { text: "Bueno queria felicitarte por tu cumple con este detallito", time: 40 },
-  { text: "con mucho cariño", time: 46 },
-  { text: "detallito que si me costo un poco de tiempo y algo de estudio pero bueno se me antojo para ti", time: 49 },
-  { text: "y bueno solo queria darte algo", time: 55 },
+  { text: "aaa no te creas que voy a estar queriendote cambiar yo vale", time: 26 },
+  { text: "si vales mil y no son bs son bitcoins osea demasiá plata ps.", time: 31 },
+  { text: "Bueno queria felicitarte por tu cumple con este detallito", time: 37 },
+  { text: "con mucho cariño❤️", time: 42 },
+  { text: "detallito que si me costo un poco de tiempo y algo de estudio pero bueno se me antojo para ti", time: 45 },
+  { text: "y bueno solo queria darte algo con esfuerzo", time: 55 },
   { text: "a la vez decirte algunas cositas pero no soy bueno para esto jsjs", time: 59 },
   { text: "entonces espero que tengas un lindo cumple", time: 67 },
-  { text: "que te quede como un recuerdo bien chevere", time: 71 },
+  { text: "que te quede como un recuerdo bien chevere🤞", time: 71 },
   { text: "epa yava", time: 75 },
   { text: "espero que ya en este punto en el que veas esto ya tenga mi pedazo de torta jijij", time: 78 },
   { text: "no mentira jajsh", time: 85 },
@@ -27,12 +27,12 @@ var lyricsData = [
   { text: "porque estan llendo por ti 💀", time: 118 },
   { text: "a no te creas jashas", time: 122 },
   { text: "bueno que massss...... no sé pudin?", time: 133 },
-  { text: "bueno no se cuando salimo a hartar?", time: 136 },
-  { text: "yo invito, tu pagas :D", time: 140 },
-  { text: "ya se antoja comer o tal vez cuando escribi esto tenia hambre, sueño o no se tarea", time: 144 },
+  { text: "¿cuando salimo a hartar?👀", time: 136 },
+  { text: "yo invito, tu pagas 👀", time: 140 },
+  { text: "ya se antoja comer o tal vez cuando escribi esto tenia hambre, sueño o no se tarea🥱", time: 144 },
   { text: "pero aja si cuidate mucho, actualmente estan pasando cosas malas a mucha gente", time: 152 },
-  { text: "y no me gustaria que te pasara nada a ti", time: 158 },
-  { text: "obvio si te pasara que te toca una loteria o algo asi si jsjsjdh", time: 162 },
+  { text: "y no me gustaría que te pasara nada a ti", time: 158 },
+  { text: "obvio si te toca una loteria o algo así si jsjsjdh", time: 162 },
   { text: "Amen🙏", time: 169 },
   { text: "que Dios y la Virgen te cuiden entonces de lo malo", time: 171 },
   { text: "doble Amen🙏", time: 175 },
@@ -90,4 +90,4 @@ function ocultarImagen() {
 }
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
-setTimeout(ocultarImagen, 16000);
+setTimeout(ocultarImagen, 15000);
